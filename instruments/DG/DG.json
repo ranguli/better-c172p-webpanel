@@ -1,5 +1,5 @@
 {
-    "src":    "ADF.svg",
+    "src":    "instruments/DG/DG.svg",
 
     "animations": [
       {
@@ -8,19 +8,21 @@
         "transforms": [{
           "type": "rotate",
           "a": {
-            "property": "adf-rotation-deg",
-            "scale": -1
+            "property": "heading",
+            "scale": -1,
+            "precision": 5
           },
           "x": 256,
           "y": 256
         }]
-      },{
-        "element": "#Needle",
+      },
+      {
+        "element": "#HeadingBug",
         "type":    "transform",
         "transforms": [{
           "type": "rotate",
           "a": {
-            "property": "adf",
+            "property": "headingBug",
             "scale": 1
           },
           "x": 256,
@@ -29,3 +31,4 @@
       }
     ]
 }
+

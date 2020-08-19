@@ -1,32 +1,32 @@
 {
-    "src":    "EGT.svg",
+    "src":    "instruments/TC/TC.svg",
 
     "animations": [
       {
-        "element": "#Needle",
+        "element": "#Aircraft",
         "type":    "transform",
         "transforms": [{
           "type": "rotate",
           "a": {
-            "property": "egt",
-            "scale": 122
+            "property": "turn",
+            "scale": 20
           },
           "x": 256,
-          "y": 369
+          "y": 256
         }]
-      },
-      {
-        "element": "#HelperNeedle",
+      },{
+        "element": "#Ball",
         "type":    "transform",
         "transforms": [{
           "type": "rotate",
           "a": {
-            "property": "egtBug",
-            "scale": 122
+            "property": "slip",
+            "scale": 20
           },
           "x": 256,
-          "y": 369
+          "y": 0
         }]
       }
     ]
 }
+

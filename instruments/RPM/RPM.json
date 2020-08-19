@@ -1,5 +1,5 @@
-{ 
-    "src":    "RPM.svg",
+{
+    "src":    "instruments/RPM/RPM.svg",
 
     "animations": [
       {
@@ -9,7 +9,7 @@
           "type": "rotate",
           "a": {
             "property": "rpm",
-            "interpolation": "RPMInterpolation.xml"
+            "interpolation": "instruments/RPM/RPMInterpolation.xml"
           },
           "x": 256,
           "y": 256

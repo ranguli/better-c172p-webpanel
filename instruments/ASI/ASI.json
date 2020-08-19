@@ -1,32 +1,32 @@
-{ 
-    "src":    "TC.svg",
+{
+    "src":    "instruments/ASI/ASI.svg",
 
     "animations": [
       {
-        "element": "#Aircraft",
+        "element": "#Needle",
         "type":    "transform",
         "transforms": [{
           "type": "rotate",
           "a": {
-            "property": "turn",
-            "scale": 20
+            "property": "ias",
+            "interpolation": "instruments/ASI/AirspeedInterpolation.xml"
           },
           "x": 256,
           "y": 256
         }]
-      },{
-        "element": "#Ball",
+      },
+      {
+        "element": "#TAS",
         "type":    "transform",
         "transforms": [{
           "type": "rotate",
-          "a": {
-            "property": "slip",
-            "scale": 20
+              "a": {
+            "property": "tas",
+            "scale": -1
           },
           "x": 256,
-          "y": 0 
+          "y": 256
         }]
       }
     ]
 }
-
